@@ -1,0 +1,73 @@
+/*
+/$$$$$$$$ /$$$$$$  /$$   /$$ /$$$$$$$$ /$$$$$$ 
+| $$_____//$$__  $$| $$$ | $$|__  $$__//$$__  $$
+| $$     | $$  \ $$| $$$$| $$   | $$  | $$  \__/
+| $$$$$  | $$  | $$| $$ $$ $$   | $$  |  $$$$$$ 
+| $$__/  | $$  | $$| $$  $$$$   | $$   \____  $$
+| $$     | $$  | $$| $$\  $$$   | $$   /$$  \ $$
+| $$     |  $$$$$$/| $$ \  $$   | $$  |  $$$$$$/
+|__/      \______/ |__/  \__/   |__/   \______/ 
+                                            
+*/
+
+/* Kanit regular */
+@font-face {
+  font-family: 'Kanit-regular';
+  src: url('./fonts/Kanit/Kanit-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Kanit bold */
+@font-face {
+  font-family: 'Kanit-bold';
+  src: url('./fonts/Kanit/Kanit-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Kanit semibold */
+@font-face {
+  font-family: 'Kanit-semibold';
+  src: url('./fonts/Kanit/Kanit-SemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Kanit italic */
+@font-face {
+  font-family: 'Kanit-italic';
+  src: url('./fonts/Kanit/Kanit-Italic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Kanit-regular {
+  font-family: 'Kanit-regular';
+}
+
+.Kanit-bold {
+  font-family: 'Kanit-bold';
+}
+
+.Kanit-semibold {
+  font-family: 'Kanit-semibold';
+}
+
+.Kanit-italic {
+  font-family: 'Kanit-italic';
+}
+
+body {
+  margin: 0;
+ /*  font-family: 'Kanit-regular' !important; */
+  font-family: 'Kanitt-regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace !important;
+}

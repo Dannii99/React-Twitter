@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './fonts.css';
+import './styles-global.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
+// import your fontawesome library
+import './fontawesome';
+
 
 ReactDOM.render(
   <React.StrictMode>
